@@ -34,7 +34,8 @@ const MEMORY_DATA = {
     title: "一起吃过的美食",
     desc: "没有什么是一顿饭解决不了的，如果有，就两顿。",
     items: [
-      { name: "第一顿火锅", date: "2023.03", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲" },
+      { name: "绿茶餐厅", date: "2026.05", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲" , img: "../image/food/lvcha.jpg" },
+      { name: "老碗会", date: "2026.04", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲" , img: "../image/food/laowanhui.jpg" },
       { name: "街角糖水", date: "2023.06", desc: "每周三的约定，双皮奶加红豆。", emoji: "🍧" },
       { name: "她做的饭", date: "2023.11", desc: "虽然有点咸，但我全吃光了。", emoji: "🍳" },
       { name: "生日蛋糕", date: "2024.01", desc: "你许的愿我偷偷记下了。", emoji: "🎂" },
