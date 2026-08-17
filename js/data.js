@@ -6,7 +6,7 @@
  *    date  : 时间/日期（选填）
  *    desc  : 一句话描述（选填）
  *    emoji : 没有照片时显示的表情（选填）
- *    img   : 照片路径，例如 "photos/west-lake.jpg"（选填，留空则显示 emoji）
+ *    img   : 照片路径，例如 "image/food/lvcha.jpg"（选填，留空则显示 emoji；路径相对于 index.html，用 "image/..." 而非 "../image/..."）
  * ============================================================ */
 
 const MEMORY_DATA = {
@@ -21,7 +21,7 @@ const MEMORY_DATA = {
     desc: "走过的路，看过的风景，都是我们的独家记忆。",
     items: [
       { name: "西湖", date: "2023.05", desc: "断桥边牵手散步，看晚霞落进湖里。", emoji: "🏞️" },
-      { name: "海边小城", date: "2023.08", desc: "踩着浪花追日落，吃了海鲜大排档。", emoji: "🌊" },
+      { name: "海边小城", date: "2023.08", desc: "踩着浪花追日落，吃了海鲜大排档。", emoji: "🌊", img: "image/places/shuangyuewan.jpg" },
       { name: "山顶露营", date: "2024.04", desc: "半夜裹着同一条毯子数星星。", emoji: "⛺" },
       { name: "古镇漫游", date: "2024.10", desc: "青石板路、糖水铺子，慢悠悠的一整天。", emoji: "🏮" },
       { name: "迪士尼", date: "2025.02", desc: "烟花下你笑得比城堡还亮。", emoji: "🎡" },
@@ -34,8 +34,8 @@ const MEMORY_DATA = {
     title: "一起吃过的美食",
     desc: "没有什么是一顿饭解决不了的，如果有，就两顿。",
     items: [
-      { name: "绿茶餐厅", date: "2026.05", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲" , img: "../image/food/lvcha.jpg" },
-      { name: "老碗会", date: "2026.04", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲" , img: "../image/food/laowanhui.jpg" },
+      { name: "绿茶餐厅", date: "2026.05", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲", img: "image/food/lvcha.jpg" },
+      { name: "老碗会", date: "2026.04", desc: "你被辣得直吸气还说再来一锅。", emoji: "🍲", img: "image/food/laowanhui.jpg" },
       { name: "街角糖水", date: "2023.06", desc: "每周三的约定，双皮奶加红豆。", emoji: "🍧" },
       { name: "她做的饭", date: "2023.11", desc: "虽然有点咸，但我全吃光了。", emoji: "🍳" },
       { name: "生日蛋糕", date: "2024.01", desc: "你许的愿我偷偷记下了。", emoji: "🎂" },
