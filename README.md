@@ -11,11 +11,9 @@
 
 ## 🌐 在线访问
 
-开启 GitHub Pages 后，访问地址为：
 
 https://guochaodongg.github.io/our_story/
 
-> 把 `<你的GitHub用户名>` 替换成你自己的 GitHub 账号名即可。
 
 ## ✏️ 怎么修改内容
 
